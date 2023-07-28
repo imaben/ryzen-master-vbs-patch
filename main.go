@@ -66,15 +66,15 @@ var patterns = []struct {
 		// jmp     loc_14001BF3A
 	},
 	{
-		desc:    "Ryzen Master v2.11.1 -> ?",
-		search:  []byte{0x7D, 0x18, 0x00, 0x0f, 0x84},
+		desc:   "Ryzen Master v2.11.1 -> ?",
+		search: []byte{0x02, 0x00, 0x83, 0x7D, 0x18, 0x00, 0x0f, 0x84},
 		// mov     dword ptr ss:[rbp+18], r13d
 		// lea     rcx, qword ptr ss:[rbp+18]
 		// call    amd ryzen master.7FF7B17829D0
 		// cmp     dword ptr ss:[rbp+18],0
 		// je      amd ryzen master.7FF7B1760EE1
-		
-		replace: []byte{0x7D, 0x18, 0x00, 0x0f, 0x85},
+
+		replace: []byte{0x02, 0x00, 0x83, 0x7D, 0x18, 0x00, 0x0f, 0x85},
 		// mov     dword ptr ss:[rbp+18], r13d
 		// lea     rcx, qword ptr ss:[rbp+18]
 		// call    amd ryzen master.7FF7B17829D0
