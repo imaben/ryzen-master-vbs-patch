@@ -45,7 +45,7 @@ Ryzen 1000 series patch was supplied by [@kaelanduck](https://github.com/kaeland
 
 Various parts of this will require administrator access.
 
-* Download and unzip binary from [releases](https://github.com/klauspost/ryzen-master-vbs-patch/releases).
+* Download and unzip binary from [releases](https://github.com/imaben/ryzen-master-vbs-patch/releases).
 * Copy `AMD Ryzen Master.exe` from `c:\Program Files\AMD\RyzenMaster\bin\` or where your software is installed.
 * In Explorer Drag & Drop `AMD Ryzen Master.exe` to the same location as the unzipped`ryzen-master-vbs-patch.exe`
 * Run the `ryzen-master-vbs-patch.exe`
