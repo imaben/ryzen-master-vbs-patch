@@ -1,3 +1,12 @@
+forked from https://github.com/klauspost/ryzen-master-vbs-patch
+
+# News
+
+- supported v2.11.1 (2023/07/28)
+
+
+**------------------------ ↓↓↓ History ↓↓↓ ------------------------**
+
 # Not needed for current versions!
 
 The most recent versions do not require this patch and the program starts fine without IBS instructions.
