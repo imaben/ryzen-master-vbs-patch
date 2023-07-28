@@ -51,7 +51,7 @@ var patterns = []struct {
 		replace: []byte{0x44, 0x39, 0xad, 0xf8, 0, 0, 0, 0x90, 0xe9},
 	},
 	{
-		desc:   "Ryzen Master v2.6.2 -> ?",
+		desc:   "Ryzen Master v2.6.2 -> 2.8.0",
 		search: []byte{0x8D, 0x48, 0xFA, 0x83, 0xF9, 0x01, 0x0F, 0x87},
 		// mov     edi, eax
 		// lea     ecx, [rax-6]
@@ -64,6 +64,11 @@ var patterns = []struct {
 		// cmp     ecx, 1
 		// nop
 		// jmp     loc_14001BF3A
+	},
+	{
+		desc:    "Ryzen Master v2.11.1 -> ?",
+		search:  []byte{0x7D, 0x18, 0x00, 0x0f, 0x84},
+		replace: []byte{0x7D, 0x18, 0x00, 0x0f, 0x85},
 	},
 	{
 		desc:    "Ryzen Master Threadripper",
